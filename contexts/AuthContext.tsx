@@ -41,9 +41,6 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
                     setUser({email, permissions, roles})
             })
-                .catch((err) => {
-                    console.log("erorrrrr:",err)
-                })
         }
     }, [])
 
